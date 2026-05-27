@@ -3,7 +3,7 @@
     "description": "A simple MP3 editing tool for Windows. Not open source.",
     "homepage": "https://cjmapp.net",
     "license": {
-        "identifier": "Cjam License",
+        "identifier": "Proprietary",
         "url": "https://cjmapp.net/license.html"
     },
     "suggest": {
