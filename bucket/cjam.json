@@ -15,7 +15,6 @@
             "hash": "13414e5b32128f7e81047aef46890bc2064adfd707fccd520f61b6bf07907c9d"
         }
     },
-    "pre_install": "if (!(Test-Path \"$persist_dir\\cjam.ini\")) { New-Item \"$dir\\cjam.ini\" | Out-Null }",
     "extract_dir": "Cjam",
     "shortcuts": [
         [
