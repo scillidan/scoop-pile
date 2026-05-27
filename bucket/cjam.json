@@ -1,0 +1,39 @@
+{
+    "version": "2.4.6.0",
+    "description": "A simple MP3 editing tool for Windows. Not open source.",
+    "homepage": "https://cjmapp.net",
+    "license": {
+        "identifer": "Cjam License",
+        "url": "https://cjmapp.net/license.html"
+    },
+    "suggest": {
+        ".NET Desktop Runtime": "versions/windowsdesktop-runtime-6.0"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/cutandjoin/Cjam/releases/download/v2460/cjam_v2460.zip",
+            "hash": "13414e5b32128f7e81047aef46890bc2064adfd707fccd520f61b6bf07907c9d"
+        }
+    },
+    "pre_install": "if (!(Test-Path \"$persist_dir\\cjam.ini\")) { New-Item \"$dir\\cjam.ini\" | Out-Null }",
+    "extract_dir": "Cjam",
+    "shortcuts": [
+        [
+            "Cjam.exe",
+            "Cjam"
+        ]
+    ],
+    "persist": [
+        "cjam.ini"
+    ],
+    "checkver": {
+        "github": "https://github.com/cutandjoin/Cjam"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/cutandjoin/Cjam/releases/download/v$cleanVersione/cjam_v$cleanVersionene.zip"
+            }
+        }
+    }
+}
