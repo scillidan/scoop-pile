@@ -1,6 +1,6 @@
 {
     "version": "0.2.0",
-    "description": "Commitizen-like Emoji Commit Tool written in Go and AI commit message generator (no need for API keys with phind) (think cz-emoji and other commitizen adapters but in go) 🚀.",
+    "description": "Commitizen-like Emoji Commit Tool written in Go and AI commit message generator (no need for API keys with phind) (think cz-emoji and other commitizen adapters but in go).",
     "homepage": "https://github.com/muandane/goji",
     "license": "Apache-2.0",
     "architecture": {
@@ -16,9 +16,10 @@
             "64bit": {
                 "url": "https://github.com/muandane/goji/releases/download/v$version/goji_v$version_Windows_x86_64.zip"
             },
-            "hash": {
-                "url": "$baseurl/checksums.txt"
-            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt",
+            "regex": "$sha256\\s+$basename"
         }
     }
 }
