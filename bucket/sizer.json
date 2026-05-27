@@ -13,8 +13,7 @@
     ],
     "checkver": {
         "url": "https://www.brianapps.net/sizer4",
-        "regex": "binaries only sizer4_(?<version>dev\\d+)\\.zip",
-        "replace": "${version}"
+        "regex": "sizer4_(?<version>dev\\d+)\\.zip"
     },
     "autoupdate": {
         "url": "https://www.brianapps.net/sizer4/sizer4_$version.zip"
