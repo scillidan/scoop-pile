@@ -15,7 +15,7 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/muandane/goji/releases/download/v$version/goji_v$version_Windows_x86_64.zip"
-            },
+            }
         },
         "hash": {
             "url": "$baseurl/checksums.txt",
