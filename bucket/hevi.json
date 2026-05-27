@@ -19,8 +19,8 @@
     },
     "bin": "hevi.exe",
     "checkver": {
-        "url": "https://codeberg.org/arnauc/hevi/tags",
-        "regex": "v([\\d.]+)"
+        "url": "https://codeberg.org/api/v1/repos/arnauc/hevi/tags",
+        "regex": "\"name\":\"v([\\d.]+)\""
     },
     "autoupdate": {
         "architecture": {
