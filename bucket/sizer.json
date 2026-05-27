@@ -1,0 +1,22 @@
+{
+    "version": "dev640",
+    "description": "Sizer is a freeware utility that allows you to resize any window to an exact, predefined size.",
+    "homepage": "https://www.brianapps.net/sizer",
+    "license": "Unknown",
+    "url": "https://www.brianapps.net/sizer4/sizer4_dev640.zip",
+    "hash": "1e6560e2040f929503372f74ba93b521d9c2c90bc4667a9696b04e28d1044f1a",
+    "shortcuts": [
+        [
+            "sizer.exe",
+            "Sizer"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.brianapps.net/sizer4",
+        "regex": "binaries only sizer4_(?<version>dev\\d+)\\.zip",
+        "replace": "${version}"
+    },
+    "autoupdate": {
+        "url": "https://www.brianapps.net/sizer4/sizer4_$version.zip"
+    }
+}
