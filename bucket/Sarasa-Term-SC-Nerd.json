@@ -87,7 +87,6 @@
     },
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/mizuikk/Sarasa-Term-SC-Nerd/releases/download/v$version/SarasaTermSCNerd.ttf.7z",
-        "extract_dir": "SarasaTermSCNerd.ttf"
+        "url": "https://github.com/mizuikk/Sarasa-Term-SC-Nerd/releases/download/v$version/SarasaTermSCNerd.ttf.7z"
     }
 }
