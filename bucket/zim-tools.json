@@ -10,12 +10,12 @@
         }
     },
     "bin": [
-        "zimsplit.exe"
-        "zimcheck.exe"
-        "zimdiff.exe"
-        "zimdump.exe"
-        "zimpatch.exe"
-        "zimrecreate.exe"
+        "zimsplit.exe",
+        "zimcheck.exe",
+        "zimdiff.exe",
+        "zimdump.exe",
+        "zimpatch.exe",
+        "zimrecreate.exe",
         "zimsearch.exe"
     ],
     "checkver": {
