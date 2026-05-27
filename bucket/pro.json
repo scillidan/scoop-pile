@@ -25,7 +25,7 @@
             },
             "hash": {
                 "url": "$baseurl/pro-checksums.txt",
-                "find": "$sha256\\s+$basename"
+                "regex": "$sha256\\s+$basename"
             }
         }
     }
