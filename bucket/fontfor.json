@@ -6,15 +6,15 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/7sDream/fontfor/releases/download/v0.4.3/fontfor-win32-x64-msvc.exe#/fontfor.exe",
-            "hash": "2dbe1923a13097e09474432c325edb8b1a9fea04bc467f09f54c2a7be91af82a"
+            "hash": "14060b46e6a28ebd4a360ebae91154556dc80ebab1dd2d85788c82e15b28654e"
         },
         "32bit": {
             "url": "https://github.com/7sDream/fontfor/releases/download/v0.4.3/fontfor-win32-ia32-msvc.exe#/fontfor.exe",
-            "hash": "9b37e9d3d5047c9e2195b4bce477f4bb47ebd3610dbd311daf77f0a7ac77ef46"
+            "hash": "869914c6dfd1be953afcfcfc722321e1899588091708d1fbdc9573a4c4e9ab1c"
         },
         "arm64": {
             "url": "https://github.com/7sDream/fontfor/releases/download/v0.4.3/fontfor-win32-arm64-msvc.exe#/fontfor.exe",
-            "hash": "c07b39f5179131f3e3e5d2dce5ce5cb3b5132314a2a9d9b7e693229b7a0b0dac"
+            "hash": "227d42604b3ca592b9bc175a9c83d226f13c15a61040ec782f165701f7dfcab7"
         }
     },
     "bin": "fontfor.exe",
