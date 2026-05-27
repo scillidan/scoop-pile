@@ -22,11 +22,11 @@
             },
             "arm64": {
                 "url": "https://github.com/Wowu/pro/releases/download/v$version/pro-windows-386.zip"
-            },
-            "hash": {
-                "url": "$baseurl/pro-checksums.txt",
-                "regex": "$sha256\\s+$basename"
             }
+        },
+        "hash": {
+            "url": "$baseurl/pro-checksums.txt",
+            "regex": "$sha256\\s+$basename"
         }
     }
 }
