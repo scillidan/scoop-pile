@@ -20,7 +20,10 @@
         ]
     ],
     "persist": "config.yaml",
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/real-zony/ZonyLrcToolsX",
+        "regex": "ZonyLrcToolsX_Alpha\\.([\\d]+)"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
