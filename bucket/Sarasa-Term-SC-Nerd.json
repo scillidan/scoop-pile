@@ -3,8 +3,8 @@
     "description": "Sarasa Term SC Nerd: Based on the Sarasa Term SC font, the Nerd fonts patch program was modified. This program was then used to merge the Nerd fonts into Sarasa Term SC, with additional post-processing steps applied afterward. This font is particularly suitable for Simplified Chinese users who use terminals or code editors.",
     "homepage": "https://github.com/mizuikk/Sarasa-Term-SC-Nerd",
     "license": "OFL-1.1",
-    "url": "https://github.com/mizuikk/Sarasa-Term-SC-Nerd/releases/download/v2.4.0/SarasaTermSCNerd.ttf.7z",
-    "hash": "1012f1716a0873c4d5f12d2d0ff2930fdfb658c85a8d302800ab9bd2165ea003",
+    "url": "https://github.com/mizuikki/Sarasa-Term-SC-Nerd/releases/download/v1.0.37-nf3.4.0/SarasaTermSCNerd.ttf.7z",
+    "hash": "c3af51207f0eec3464852a8a873b86b60c76c507e4bc83c66a5a980f2fc6e067",
     "installer": {
         "script": [
             "$currentBuildNumber = [int] (Get-ItemProperty \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\").CurrentBuildNumber",
@@ -87,6 +87,6 @@
     },
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/mizuikk/Sarasa-Term-SC-Nerd/releases/download/v$version/SarasaTermSCNerd.ttf.7z"
+        "url": "https://github.com/mizuikki/Sarasa-Term-SC-Nerd/releases/download/v$version/SarasaTermSCNerd.ttf.7z"
     }
 }
