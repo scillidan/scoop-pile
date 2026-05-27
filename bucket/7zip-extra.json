@@ -21,6 +21,6 @@
         "github": "https://github.com/ip7z/7zip"
     },
     "autoupdate": {
-        "url": "https://github.com/ip7z/7zip/releases/download/$version/7z2601-extra.7z"
+        "url": "https://github.com/ip7z/7zip/releases/download/$version/7z$cleanVersion-extra.7z"
     }
 }
