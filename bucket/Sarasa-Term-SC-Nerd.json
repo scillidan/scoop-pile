@@ -1,5 +1,5 @@
 {
-    "version": "2.4.0",
+    "version": "1.0.37-nf3.4.0",
     "description": "Sarasa Term SC Nerd: Based on the Sarasa Term SC font, the Nerd fonts patch program was modified. This program was then used to merge the Nerd fonts into Sarasa Term SC, with additional post-processing steps applied afterward. This font is particularly suitable for Simplified Chinese users who use terminals or code editors.",
     "homepage": "https://github.com/mizuikk/Sarasa-Term-SC-Nerd",
     "license": "OFL-1.1",
