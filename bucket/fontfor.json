@@ -25,10 +25,10 @@
                 "url": "https://github.com/7sDream/fontfor/releases/download/v$version/fontfor-win32-x64-msvc.exe#/fontfor.exe"
             },
             "32bit": {
-                "url": "https://github.com/7sDream/fontfor/releases/download/v$version/fontfor-ia32-msvc.exe#/fontfor.exe"
+                "url": "https://github.com/7sDream/fontfor/releases/download/v$version/fontfor-win32-ia32-msvc.exe#/fontfor.exe"
             },
             "arm64": {
-                "url": "https://github.com/7sDream/fontfor/releases/download/v$version/fontfor-arm64-msvc.exe#/fontfor.exe"
+                "url": "https://github.com/7sDream/fontfor/releases/download/v$version/fontfor-win32-arm64-msvc.exe#/fontfor.exe"
             }
         }
     }
