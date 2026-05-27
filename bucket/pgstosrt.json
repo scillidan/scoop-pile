@@ -2,7 +2,7 @@
     "version": "1.4.8",
     "description": "PGS to Srt converter.",
     "homepage": "https://github.com/Tentacule/PgsToSrt",
-    "license": "",
+    "license": "Unknown",
     "architecture": {
         "64bit": {
             "url": "https://github.com/Tentacule/PgsToSrt/releases/download/v1.4.8/PgsToStr-1.4.8.zip",
