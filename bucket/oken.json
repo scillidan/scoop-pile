@@ -18,7 +18,7 @@
             }
         },
         "hash": {
-            "url": "$basename.sha256"
+            "url": "$baseurl/$basename.sha256"
         }
     }
 }
