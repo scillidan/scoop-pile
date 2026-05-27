@@ -25,7 +25,6 @@
         "url": "https://api.github.com/repos/xiaoyifang/goldendict-ng/releases/latest",
         "jsonpath": "$..browser_download_url",
         "regex": "download/v([\\d.]+)-Release\\.(\\w+)/GoldenDict-ng-[\\d.]+-Qt([\\d.]+)-Windows-installer\\.7z",
-        "reverse": true,
         "replace": "$1-$2"
     },
     "autoupdate": {
