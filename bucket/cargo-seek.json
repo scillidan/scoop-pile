@@ -1,0 +1,24 @@
+{
+    "version": "0.1.0",
+    "description": "A terminal user interface for searching, adding and installing cargo crates.",
+    "homepage": "https://github.com/tareqimbasher/cargo-seek",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/tareqimbasher/cargo-seek/releases/download/v0.1.0/cargo-seek-v0.1.0-windows-x86_64.tar.gz",
+            "hash": "956d8c2f01446d66b30324efabde4e2ee7370bba59f32e97a6891ba766aa82ed"
+        }
+    },
+    "bin": "cargo-seek.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/tareqimbasher/cargo-seek/releases/download/v$version/cargo-seek-v$version-windows-x86_64.tar.gz"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
