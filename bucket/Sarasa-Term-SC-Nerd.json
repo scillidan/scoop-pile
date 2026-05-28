@@ -85,7 +85,10 @@
             "}"
         ]
     },
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/mizuikki/Sarasa-Term-SC-Nerd",
+        "regex": "v([\\d.-]+nf[\\d.]+)"
+    },
     "autoupdate": {
         "url": "https://github.com/mizuikki/Sarasa-Term-SC-Nerd/releases/download/v$version/SarasaTermSCNerd.ttf.7z"
     }
