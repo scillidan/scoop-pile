@@ -16,9 +16,6 @@
             "64bit": {
                 "url": "https://github.com/tareqimbasher/cargo-seek/releases/download/v$version/cargo-seek-v$version-windows-x86_64.tar.gz"
             }
-        },
-        "hash": {
-            "url": "$baseurl/$basename.sha256"
         }
     }
 }
