@@ -16,6 +16,10 @@
             "64bit": {
                 "url": "https://github.com/lazynop/lazyenv/releases/download/v$version/lazyenv_$version_windows_amd64.zip"
             }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt",
+            "regex": "$sha256\\s+$basename"
         }
     }
 }
