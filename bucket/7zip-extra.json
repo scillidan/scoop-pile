@@ -13,14 +13,16 @@
         "32bit": {
             "bin": "7za.exe"
         },
-        "32bit": {
+        "arm64": {
             "bin": "arm64/7za.exe"
         }
     },
     "checkver": {
-        "github": "https://github.com/ip7z/7zip"
+        "github": "https://github.com/ip7z/7zip",
+        "regex": "(?<major>\\d+)\\.(?<minor>\\d+)"
     },
     "autoupdate": {
-        "url": "https://github.com/ip7z/7zip/releases/download/$version/7z$cleanVersion-extra.7z"
+        "url": "https://github.com/ip7z/7zip/releases/download/$version/7z$matchMajor$matchMinor-extra.7z",
+        "extract_dir": "7z$matchMajor$matchMinor-extra"
     }
 }
