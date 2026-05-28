@@ -5,5 +5,5 @@ I will submit a PR to the official Scoop bucket for any `manifest` that meets it
 ## Usage
 
 ```pwsh
-scoop bucket add shovel https://github.com/scillidan/scoop-pile
+scoop bucket add pile https://github.com/scillidan/scoop-pile
 ```
