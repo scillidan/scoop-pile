@@ -30,6 +30,10 @@
             "arm64": {
                 "url": "https://github.com/thekarel/rum/releases/download/v$version/rum_Windows_arm64.zip"
             }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt",
+            "regex": "$sha256\\s+$basename"
         }
     }
 }
