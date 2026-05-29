@@ -6,11 +6,14 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/scillidan/epub-thumbnailer/releases/download/0.0.1-alpha.1/epub-thumbnailer-x64.zip",
-            "hash": "e19c16372751a257ae31213dd90e358f406c23c0fb7e5070980fa2cde279d566"
+            "hash": "be513be395b853ac0b2e79cb46c95683ec04431b267ad8d98a1b79944808bd91"
         }
     },
     "bin": "epub-thumbnailer.exe",
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/mizuikki/Sarasa-Term-SC-Nerd",
+        "regex": "([\\d.-]+[\\w]+[\\d.]+)"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
