@@ -10,7 +10,10 @@
         }
     },
     "bin": "epub-thumbnailer.exe",
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/scillidan/epub-thumbnailer",
+        "regex": "([\\d.]+-?[\\w\\d.]+)"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
