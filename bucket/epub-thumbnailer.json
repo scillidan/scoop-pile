@@ -10,10 +10,7 @@
         }
     },
     "bin": "epub-thumbnailer.exe",
-    "checkver": {
-        "github": "https://github.com/mizuikki/Sarasa-Term-SC-Nerd",
-        "regex": "([\\d.-]+[\\w]+[\\d.]+)"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
