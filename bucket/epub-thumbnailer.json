@@ -11,7 +11,7 @@
     },
     "bin": "epub-thumbnailer.exe",
     "checkver": {
-        "github": "https://github.com/scillidan/epub-thumbnailer/tags"
+        "github": "https://github.com/scillidan/epub-thumbnailer"
     },
     "autoupdate": {
         "architecture": {
