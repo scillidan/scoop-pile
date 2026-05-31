@@ -4,7 +4,7 @@
     "homepage": "https://github.com/scillidan/AHK-KeyboardSwitch",
     "license": "MIT",
     "notes": [
-        "You can start Keyboard Locker with Windows by running:",
+        "You can start \"Keyboard Switch\" with Windows by running:",
         "reg import \"$dir\\add-startup.reg\""
     ],
     "architecture": {
