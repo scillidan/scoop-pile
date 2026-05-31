@@ -1,0 +1,26 @@
+{
+    "version": "0.0.1",
+    "description": "Search clipboard text across dictionary groups using GoldenDict.",
+    "homepage": "https://github.com/scillidan/AHK-GoldenDictSearchInGroup",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/scillidan/AHK-GoldenDictSearchInGroup/releases/download/v0.0.1/GoldenDictSearchInGroup.zip",
+            "hash": "dc926a611b03b5c2c8c204242898505487cde54ed564068dab370d65af02ed9c"
+        }
+    },
+    "shortcuts": [
+        [
+            "GoldenDictSearchInGroupexe",
+            "GoldenDict Search In Group"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/scillidan/AHK-GoldenDictSearchInGroup/releases/download/v$version/GoldenDictSearchInGroup.zip"
+            }
+        }
+    }
+}
