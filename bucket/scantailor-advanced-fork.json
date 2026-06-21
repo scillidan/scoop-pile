@@ -18,11 +18,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/scillidan/scantailor-advanced/releases/download/v$version/scantailor-advanced-v$version-windows-x64.zip"
-            },
-            "hash": {
-                "url": "$baseurl/checksums-sha256.txt",
-                "regex": "$sha256\\s+$basename"
+                "url": "https://github.com/scillidan/scantailor-advanced/releases/download/v$version/scantailor-advanced-v$version-windows-x64.zip",
+                "hash": {
+                    "url": "$baseurl/checksums-sha256.txt",
+                    "regex": "$sha256\\s+$basename"
+                }
             }
         }
     }
