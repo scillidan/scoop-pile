@@ -3,6 +3,9 @@
     "description": "A tool for converting dictionary files aka glossaries.",
     "homepage": "https://github.com/ilius/pyglossary",
     "license": "GPL-3.0-or-later",
+    "suggest": {
+        "vcredist": "extras/vcredist2022"
+    },
     "architecture": {
         "64bit": {
             "url": "https://github.com/ilius/pyglossary/releases/download/5.4.1/PyGlossary-5.4.1-Windows-X64-dist.zip",
