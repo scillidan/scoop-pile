@@ -1,11 +1,11 @@
 {
-    "version": "26.01",
+    "version": "26.02",
     "description": "7-Zip Extra: standalone console version, 7z DLL, Plugin for Far Manager.",
     "homepage": "https://www.7-zip.org/",
     "license": "LGPL-2.1-or-later",
-    "url": "https://github.com/ip7z/7zip/releases/download/26.01/7z2601-extra.7z",
-    "hash": "05cda5442075a7c6ce246ca1bbb9b1f1d6f1787a9559156f9b8b2dad29a86971",
-    "extract_dir": "7z2601-extra",
+    "url": "https://github.com/ip7z/7zip/releases/download/26.02/7z2602-extra.7z",
+    "hash": "081df9e9311dfd9c9e0e98c1c80180b99bb51e4cb24156b5f3057fe3c259d70a",
+    "extract_dir": "7z2602-extra",
     "architecture": {
         "64bit": {
             "bin": "x64/7za.exe"
