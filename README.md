@@ -1,6 +1,6 @@
 # scoop-pile
 
-I will submit a PR to the official Scoop bucket for any `manifest` that meets its criteria. It will be removed from this bucket after the PR is merged.
+Manifests meeting the official criteria will be upstreamed via PR and removed from this bucket upon merge.
 
 ## Usage
 
