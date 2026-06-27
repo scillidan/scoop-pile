@@ -1,0 +1,34 @@
+{
+    "version": "0.3.2",
+    "description": "llmtrim is a local proxy that compresses your LLM API requests so you pay less, with no change to the answers.",
+    "homepage": "https://github.com/fkiene/llmtrim",
+    "license": "MPL-2.0",
+    "suggest": {
+        "vcredist": "extras/vcredist2022"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/fkiene/llmtrim/releases/download/v0.3.2/llmtrim-x86_64-pc-windows-msvc.zip",
+            "hash": "deb0d0cec2b6e03a35b419bc790b044a0a1f1e85ddda353f85a84fd5dfc5673c"
+        },
+        "arm64": {
+            "url": "https://github.com/fkiene/llmtrim/releases/download/v0.3.2/llmtrim-aarch64-pc-windows-msvc.zip",
+            "hash": "3190bd76a50e6c266427d69b9f3a45417e719b53c3fa7ebc333bd73ea50b4f49"
+        }
+    },
+    "bin": "llmtrim.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/fkiene/llmtrim/releases/download/v$version/llmtrim-x86_64-pc-windows-msvc.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/fkiene/llmtrim/releases/download/v$version/llmtrim-aarch64-pc-windows-msvc.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
