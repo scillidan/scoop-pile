@@ -33,10 +33,10 @@
                     "https://github.com/agent-sh/agnix/releases/download/v$version/agnix-x86_64-pc-windows-msvc.zip",
                     "https://github.com/agent-sh/agnix/releases/download/v$version/agnix-lsp-x86_64-pc-windows-msvc.zip",
                     "https://github.com/agent-sh/agnix/releases/download/v$version/agnix-mcp-x86_64-pc-windows-msvc.zip"
-                ]
-            },
-            "hash": {
-                "url": "$url.sha256"
+                ],
+                "hash": {
+                    "url": "$url.sha256"
+                }
             }
         }
     }
