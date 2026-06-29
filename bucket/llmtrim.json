@@ -21,14 +21,17 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/fkiene/llmtrim/releases/download/v$version/llmtrim-x86_64-pc-windows-msvc.zip"
+                "url": "https://github.com/fkiene/llmtrim/releases/download/v$version/llmtrim-x86_64-pc-windows-msvc.zip",
+                "hash": {
+                    "url": "$baseurl/llmtrim-x86_64-pc-windows-msvc.sha256"
+                }
             },
             "arm64": {
-                "url": "https://github.com/fkiene/llmtrim/releases/download/v$version/llmtrim-aarch64-pc-windows-msvc.zip"
+                "url": "https://github.com/fkiene/llmtrim/releases/download/v$version/llmtrim-aarch64-pc-windows-msvc.zip",
+                "hash": {
+                    "url": "$baseurl/llmtrim-aarch64-pc-windows-msvc.sha256"
+                }
             }
-        },
-        "hash": {
-            "url": "$url.sha256"
         }
     }
 }
