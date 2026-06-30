@@ -1,5 +1,5 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Screen OCR with Tesseract and RapidOCR (PaddleOCR ONNX, PP-OCRv5).",
     "homepage": "https://github.com/scillidan/AHK-ScreenOCR",
     "license": "MIT",
@@ -9,8 +9,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/scillidan/AHK-ScreenOCR/releases/download/v1.0.0/ScreenOCR.zip",
-            "hash": "5afe970ee6bcede15e2a48b6be9f76aff647130a3f3dce95f1a2238bc4f49559"
+            "url": "https://github.com/scillidan/AHK-ScreenOCR/releases/download/v1.0.1/ScreenOCR.zip",
+            "hash": "8e2db131f13e54be79dd9f9b930f5b006accd094c6a52949177fa60a02ca8770"
         }
     },
     "shortcuts": [
