@@ -7,7 +7,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/scillidan/AHK-KeyboardSwitch/releases/download/v0.2.6/KeyboardSwitch.zip",
-            "hash": "07011b2df882dcf1527b6d4eb9bf40e3e4dfc7ad9b77ac73d44c8da5ba86b771"
+            "hash": "b78e4ae86f1e8e46ad640097e19aa1abca1f8df61ccdb2fff74a3a8a1890a1ba"
         }
     },
     "shortcuts": [
