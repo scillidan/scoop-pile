@@ -4,8 +4,8 @@
     "homepage": "https://github.com/scillidan/AHK-ScreenOCR",
     "license": "MIT",
     "notes": [
-        "Please read README.md before."
-        "PS: If app crashes, please check the configuration file (.ini).",
+        "Please read README.md before.",
+        "PS: If app crashes, please check the configuration file (.ini)."
     ],
     "architecture": {
         "64bit": {
