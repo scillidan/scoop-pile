@@ -4,7 +4,7 @@
     "homepage": "https://github.com/scillidan/AHK-ScreenOCR",
     "license": "MIT",
     "notes": [
-        "Please read README.md before.",
+        "When OCR is triggered via a hotkey, `uv` installs the `rapidocr-onnxruntimedependency` required by `lib/rapidocr_cli.py`.",
         "PS: If app crashes, please check the configuration file (.ini)."
     ],
     "architecture": {
