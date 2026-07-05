@@ -4,7 +4,7 @@
     "homepage": "https://github.com/atelier-anchor/smiley-sans",
     "license": "OFL-1.1",
     "url": "https://github.com/atelier-anchor/smiley-sans/releases/download/v2.0.1/smiley-sans-v2.0.1.zip",
-    "hash": "299C0BE6C960AE37361762ECA76F7D0CD516615435BB96C0D4B98A1E70178A07",
+    "hash": "299c0be6c960ae37361762eca76f7d0cd516615435bb96c0d4b98a1e70178a07",
     "installer": {
         "script": [
             "$currentBuildNumber = [int] (Get-ItemProperty \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\").CurrentBuildNumber",
