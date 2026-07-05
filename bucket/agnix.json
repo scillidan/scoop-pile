@@ -1,5 +1,5 @@
 {
-    "version": "0.36.2",
+    "version": "0.37.5",
     "description": "Catch broken agent configs before your AI tools silently ignore them.",
     "homepage": "https://github.com/agent-sh/agnix",
     "license": "Apache-2.0|MIT",
@@ -9,14 +9,14 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/agent-sh/agnix/releases/download/v0.36.2/agnix-x86_64-pc-windows-msvc.zip",
-                "https://github.com/agent-sh/agnix/releases/download/v0.36.2/agnix-lsp-x86_64-pc-windows-msvc.zip",
-                "https://github.com/agent-sh/agnix/releases/download/v0.36.2/agnix-mcp-x86_64-pc-windows-msvc.zip"
+                "https://github.com/agent-sh/agnix/releases/download/v0.37.5/agnix-x86_64-pc-windows-msvc.zip",
+                "https://github.com/agent-sh/agnix/releases/download/v0.37.5/agnix-lsp-x86_64-pc-windows-msvc.zip",
+                "https://github.com/agent-sh/agnix/releases/download/v0.37.5/agnix-mcp-x86_64-pc-windows-msvc.zip"
             ],
             "hash": [
-                "d09b878b572098b33df592b2241a45aba028728a6e32c46c30c91e7baa8607f7",
-                "84abd7d724e73f94d2bb425183788129ea1ed3ae97f50cf4ccb125954ffd1e1a",
-                "8154efe50f69b21cf541e292ddb1700f2ed3253c77a97b3a4fbe8eb2d75487cb"
+                "a570b6a9df4c5ab65cebf3c0d6596b73a27413ced7cda60a5252b636ba644969",
+                "5abe2f70f36df2f256990152c9251d6980b247c8553d6a60fe4157c988995422",
+                "1d81b892672df596ce60631f15a108145c3f7d588e74f10c71484a6f60b83a76"
             ]
         }
     },
