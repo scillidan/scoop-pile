@@ -44,7 +44,7 @@
             "}"
         ]
     },
-    "post_install": "iwr 'https://raw.githubusercontent.com/lxgw/Pengli/refs/heads/main/OFL.txt' -OutFile \"$dir\\LICENSE\"",
+    "post_install": "iwr 'https://raw.githubusercontent.com/lxgw/Pengli/v1.033/OFL.txt' -OutFile \"$dir\\LICENSE\"",
     "pre_uninstall": [
         "$fontInstallDir = if ($global) { \"$env:windir\\Fonts\" } else { \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\" }",
         "Get-ChildItem $dir -Filter '*.ttf' | ForEach-Object {",
