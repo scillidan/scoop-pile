@@ -44,6 +44,7 @@
             "}"
         ]
     },
+    "post_install": "iwr 'https://raw.githubusercontent.com/mizuikk/Sarasa-Term-SC-Nerd/v1.0.40-nf3.4.0/LICENSE' -OutFile \"$dir\\LICENSE\"",
     "pre_uninstall": [
         "$fontInstallDir = if ($global) { \"$env:windir\\Fonts\" } else { \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\" }",
         "Get-ChildItem $dir -Filter '*.ttf' | ForEach-Object {",
