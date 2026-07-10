@@ -1,11 +1,18 @@
 {
     "version": "1.522",
-    "description": "\"LXGW Wenkai GB\", an open-source Simplified Chinese font derived from Klee One.",
-    "homepage": "https://github.com/lxgw/LxgwWenkaiGB",
+    "description": "\"LXGW WenKai\", An unprofessional open-source Chinese font derived from Fontworks' Klee One.",
+    "homepage": "https://github.com/lxgw/LxgwWenKai",
     "license": "OFL-1.1",
-    "url": "https://github.com/lxgw/LxgwWenkaiGB/releases/download/v1.522/lxgw-wenkai-gb-v1.522.zip",
-    "hash": "37982f21c5f70fad0a82ee5a5d0cc0d01b1903196852cd2303083173da04d194",
-    "extract_dir": "lxgw-wenkai-gb-v1.522",
+    "url": [
+        "https://github.com/lxgw/LxgwWenKai/releases/download/v1.522/LXGWWenKai-Light.ttf",
+        "https://github.com/lxgw/LxgwWenKai/releases/download/v1.522/LXGWWenKai-Medium.ttf",
+        "https://github.com/lxgw/LxgwWenKai/releases/download/v1.522/LXGWWenKai-Regular.ttf"
+    ],
+    "hash": [
+        "526ec70cbb0118e871d481f8179e03ff045f0e4d72d080dcca87950c4ab27cca",
+        "d4bdeb38a39151d74d084cba5090f8cb7d20bf83eedb78c35939ae70b9f4e3f6",
+        "39ad71264b588165b469e35e6afb162a378dacd1f95348160240ba9038ac3009"
+    ],
     "installer": {
         "script": [
             "$currentBuildNumber = [int] (Get-ItemProperty \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\").CurrentBuildNumber",
@@ -45,6 +52,7 @@
             "}"
         ]
     },
+    "post_install": "iwr 'https://raw.githubusercontent.com/lxgw/LxgwWenKai/v1.522/OFL.txt' -OutFile \"$dir\\LICENSE\"",
     "pre_uninstall": [
         "$fontInstallDir = if ($global) { \"$env:windir\\Fonts\" } else { \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\" }",
         "Get-ChildItem $dir -Filter '*.ttf' | ForEach-Object {",
@@ -88,6 +96,10 @@
     },
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/lxgw/LxgwWenkaiGB/releases/download/v$version/lxgw-wenkai-gb-v$version.zip"
+        "url": [
+            "https://github.com/lxgw/LxgwWenKai/releases/download/v$version/LXGWWenKai-Light.ttf",
+            "https://github.com/lxgw/LxgwWenKai/releases/download/v$version/LXGWWenKai-Medium.ttf",
+            "https://github.com/lxgw/LxgwWenKai/releases/download/v$version/LXGWWenKai-Regular.ttf"
+        ]
     }
 }
