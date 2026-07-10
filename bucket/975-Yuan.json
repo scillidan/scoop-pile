@@ -1,10 +1,18 @@
 {
-    "version": "1.0.40-nf3.4.0",
-    "description": "Sarasa Term SC Nerd: Based on the Sarasa Term SC font, the Nerd fonts patch program was modified. This program was then used to merge the Nerd fonts into Sarasa Term SC, with additional post-processing steps applied afterward. This font is particularly suitable for Simplified Chinese users who use terminals or code editors.",
-    "homepage": "https://github.com/mizuikk/Sarasa-Term-SC-Nerd",
+    "version": "26.06.20",
+    "description": "A Chinese Font Derived from Source Han Sans, Swei Gothic, Chiron Go Round TC and WenYuan Rounded.",
+    "homepage": "https://github.com/lxgw/975Yuan",
     "license": "OFL-1.1",
-    "url": "https://github.com/mizuikki/Sarasa-Term-SC-Nerd/releases/download/v1.0.40-nf3.4.0/SarasaTermSCNerd.ttf.7z",
-    "hash": "9437f1b7e7e52c5e8965fe4f36b09f7a97a507369de2eaed91377189eff382da",
+    "url": [
+        "https://github.com/lxgw/975Yuan/releases/download/26.06.20/LXGW975YuanSC-400W.ttf",
+        "https://github.com/lxgw/975Yuan/releases/download/26.06.20/LXGW975YuanSC-500W.ttf",
+        "https://github.com/lxgw/975Yuan/releases/download/26.06.20/LXGW975YuanSC-700W.ttf"
+    ],
+    "hash": [
+        "3ec608e59749999171973a101f36709293c82cbcf85601b8994858f0d6338b83",
+        "7b936b65a055453e97bf5ada9149f482756fa6ffea071de4bf77d35c752f5de5",
+        "91d76ba3e51585df60af9832347dcf86caba12bd613f732eafbd7c4a4fb5cbc0"
+    ],
     "installer": {
         "script": [
             "$currentBuildNumber = [int] (Get-ItemProperty \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\").CurrentBuildNumber",
@@ -44,7 +52,7 @@
             "}"
         ]
     },
-    "post_install": "iwr 'https://raw.githubusercontent.com/mizuikk/Sarasa-Term-SC-Nerd/v1.0.40-nf3.4.0/LICENSE' -OutFile \"$dir\\LICENSE\"",
+    "post_install": "iwr 'https://raw.githubusercontent.com/lxgw/975Yuan/26.06.20/OFL.txt' -OutFile \"$dir\\LICENSE\"",
     "pre_uninstall": [
         "$fontInstallDir = if ($global) { \"$env:windir\\Fonts\" } else { \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\" }",
         "Get-ChildItem $dir -Filter '*.ttf' | ForEach-Object {",
@@ -86,11 +94,12 @@
             "}"
         ]
     },
-    "checkver": {
-        "github": "https://github.com/mizuikki/Sarasa-Term-SC-Nerd",
-        "regex": "v([\\d.-]+nf[\\d.]+)"
-    },
+    "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/mizuikki/Sarasa-Term-SC-Nerd/releases/download/v$version/SarasaTermSCNerd.ttf.7z"
+        "url": [
+            "https://github.com/lxgw/975Yuan/releases/download/$version/LXGW975YuanSC-400W.ttf",
+            "https://github.com/lxgw/975Yuan/releases/download/$version/LXGW975YuanSC-500W.ttf",
+            "https://github.com/lxgw/975Yuan/releases/download/$version/LXGW975YuanSC-700W.ttf"
+        ]
     }
 }
