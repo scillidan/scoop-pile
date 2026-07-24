@@ -1,0 +1,42 @@
+{
+    "version": "0.6.0",
+    "description": "A lightweight tool offering better readability of web pages on the CLI.",
+    "homepage": "https://github.com/mrusme/reader",
+    "license": {
+        "identifier": "SEGV-1.1",
+        "url": "https://github.com/mrusme/reader/blob/master/LICENSE"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/mrusme/reader/releases/download/v0.6.0/reader_0.6.0_windows_amd64.zip",
+            "hash": "e123da77496df770c91d82ecea2536acab00a61516cfa1efb9bdd1d5ddd5e651"
+        },
+        "32bit": {
+            "url": "https://github.com/mrusme/reader/releases/download/v0.6.0/reader_0.6.0_windows_386.zip",
+            "hash": "30cefb466a5b9646745eb46f435e35c9c6ed68367c8a81a92cd0132835990e51"
+        },
+        "arm64": {
+            "url": "https://github.com/mrusme/reader/releases/download/v0.6.0/reader_0.6.0_windows_arm64.zip",
+            "hash": "dcd3ddf15609598ee4ad49839ab5437776466a285e32698741dc4ba182c2b8ae"
+        }
+    },
+    "bin": "reader.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/mrusme/reader/releases/download/v$version/reader_$version_windows_amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/mrusme/reader/releases/download/v$version/reader_$version_windows_386.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/mrusme/reader/releases/download/v$version/reader_$version_windows_arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt",
+            "regex": "$sha256\\s+$basename"
+        }
+    }
+}
