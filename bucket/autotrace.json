@@ -9,6 +9,7 @@
             "hash": "cfe1571223b8b531093b6016ac23969362ec81e05563a36b67552b3c5c96d760"
         }
     },
+    "extract_dir": "autotrace-0.40.0-win64",
     "bin": "autotrace.exe",
     "checkver": "github",
     "autoupdate": {
