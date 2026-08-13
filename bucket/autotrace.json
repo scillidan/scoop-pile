@@ -1,30 +1,20 @@
 {
-    "version": "0.31.10",
+    "version": "0.40.0",
     "description": "bitmap to vector graphics converter.",
-    "homepage": "https://github.com/autotrace/autotrace",
+    "homepage": "https://github.com/scillidan/autotrace",
     "license": "GPL-2.0-or-later|LGPL-2.1-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/autotrace/autotrace/releases/download/0.31.10/autotrace-20240129-win64-setup.exe#dl.7z",
-            "hash": "07ac6a0f6b776714d0f35ce9a1ff59ad545dafe7c35678e373fb1215651124c1"
-        },
-        "32bit": {
-            "url": "https://github.com/autotrace/autotrace/releases/download/0.31.10/autotrace-20240129-win32-setup.exe#dl.7z",
-            "hash": "a53b089f14ca85acf9a2ff94160e899766a2f60d02ae8d555617c20746babbc9"
+            "url": "https://github.com/scillidan/autotrace/releases/download/v0.40.0/autotrace-0.40.0-win64.zip",
+            "hash": "cfe1571223b8b531093b6016ac23969362ec81e05563a36b67552b3c5c96d760"
         }
     },
     "bin": "autotrace.exe",
-    "checkver": {
-        "url": "https://api.github.com/repos/autotrace/autotrace/releases/latest",
-        "regex": "releases/download/(?<version>[\\d.]+)/autotrace-(?<date>\\d+)-win64-setup\\.exe"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/autotrace/autotrace/releases/download/$version/autotrace-$matchDate-win64-setup.exe#dl.7z"
-            },
-            "32bit": {
-                "url": "https://github.com/autotrace/autotrace/releases/download/$version/autotrace-$matchDate-win32-setup.exe#dl.7z"
+                "url": "https://github.com/scillidan/autotrace/releases/download/v$version/autotrace-$version-win64.zip"
             }
         }
     }
