@@ -1,0 +1,21 @@
+{
+    "version": "1.4.3",
+    "description": "Tabular data swiss-army knife CLI + world's fastest (simd) CSV parser.",
+    "homepage": "https://github.com/liquidaty/zsv",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/liquidaty/zsv/releases/download/v1.4.3/zsv-1.4.3-amd64-windows-mingw.zip",
+            "hash": "8c1c16c8d2ce64ed17fe396b32f647bc841fde25fe9c567d3328bc5db656fbf5"
+        }
+    },
+    "bin": "bin\\zsv.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/liquidaty/zsv/releases/download/v$version/zsv-$version-amd64-windows-mingw.zip"
+            }
+        }
+    }
+}
