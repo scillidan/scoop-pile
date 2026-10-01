@@ -1,0 +1,21 @@
+{
+    "version": "1.0.0",
+    "description": "CLI app and library to extract a color palette from an image through clustering.",
+    "homepage": "https://github.com/Baldomo/paletter",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Baldomo/paletter/releases/download/v1.0.0/paletter-windows.exe#/paletter.exe",
+            "hash": "c0812c1aaed4ecff3cccf4e24343c996b2e53dcd092a0ca9037dd75fa4c99495"
+        }
+    },
+    "bin": "paletter.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Baldomo/paletter/releases/download/v$version/paletter-windows.exe#/paletter.exe"
+            }
+        }
+    }
+}
