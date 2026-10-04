@@ -1,5 +1,5 @@
 {
-    "version": "0.6.0",
+    "version": "0.6.1",
     "description": "A lightweight tool offering better readability of web pages on the CLI.",
     "homepage": "https://github.com/mrusme/reader",
     "license": {
@@ -8,16 +8,16 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mrusme/reader/releases/download/v0.6.0/reader_0.6.0_windows_amd64.zip",
-            "hash": "e123da77496df770c91d82ecea2536acab00a61516cfa1efb9bdd1d5ddd5e651"
+            "url": "https://github.com/mrusme/reader/releases/download/v0.6.1/reader_0.6.1_windows_amd64.zip",
+            "hash": "4b4b86ddd6a0b2692b69409d91421557535abc523e48cd84d736aad5e763d4c3"
         },
         "32bit": {
-            "url": "https://github.com/mrusme/reader/releases/download/v0.6.0/reader_0.6.0_windows_386.zip",
-            "hash": "30cefb466a5b9646745eb46f435e35c9c6ed68367c8a81a92cd0132835990e51"
+            "url": "https://github.com/mrusme/reader/releases/download/v0.6.1/reader_0.6.1_windows_386.zip",
+            "hash": "96afafda8cad3f0bb91a45af2a6b91be55c24ef7f854c21537fe22f0d67f8be9"
         },
         "arm64": {
-            "url": "https://github.com/mrusme/reader/releases/download/v0.6.0/reader_0.6.0_windows_arm64.zip",
-            "hash": "dcd3ddf15609598ee4ad49839ab5437776466a285e32698741dc4ba182c2b8ae"
+            "url": "https://github.com/mrusme/reader/releases/download/v0.6.1/reader_0.6.1_windows_arm64.zip",
+            "hash": "97f3f4b951eac4221e6b61e0527924871a212a67f953825b571f7aabe7ebdc7b"
         }
     },
     "bin": "reader.exe",
