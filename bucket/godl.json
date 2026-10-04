@@ -15,7 +15,10 @@
             "godl"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "url": "https://codeberg.org/api/v1/repos/fishn/godl/releases/latest",
+        "jsonpath": "$.tag_name"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
