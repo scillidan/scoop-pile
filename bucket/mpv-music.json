@@ -20,11 +20,11 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/FurqanHun/mpv-music/releases/download/v$version/mpv-music-v$version-x86_64-pc-windows-msvc.zip"
-            },
-            "hash": {
-                "url": "$baseurl/checksums.txt",
-                "regex": "$sha256\\s+$basename"
             }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt",
+            "regex": "$sha256\\s+$basename"
         }
     }
 }
