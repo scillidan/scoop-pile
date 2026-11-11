@@ -26,10 +26,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/anomalyco/hex/releases/download/v$version/hex-3.4.0-windows-x64.exe#hex.exe"
+                "url": "https://github.com/anomalyco/hex/releases/download/v$version/hex-$version-windows-x64.exe#/hex.exe"
             },
             "arm64": {
-                "url": "https://github.com/anomalyco/hex/releases/download/v$version/hex-3.4.0-windows-arm64.exe#hex.exe"
+                "url": "https://github.com/anomalyco/hex/releases/download/v$version/hex-$version-windows-arm64.exe#/hex.exe"
             }
         }
     }
