@@ -1,5 +1,5 @@
 {
-    "version": "0.34.0",
+    "version": "0.35.1",
     "description": "System monitor for workstations, laptops and NAS — terminal UI and native GUI, many hosts over SSH.",
     "homepage": "https://github.com/akivajp/rigtop",
     "license": "Apache-2.0|MIT",
@@ -8,9 +8,9 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/akivajp/rigtop/releases/download/v0.34.0/rigtop-v0.34.0-x86_64-pc-windows-msvc.zip",
-            "hash": "3b00686d9ec7b14579704bed788df677e0621a000071842badb2a4a9e88c76b7",
-            "extract_dir": "rigtop-v0.34.0-x86_64-pc-windows-msvc"
+            "url": "https://github.com/akivajp/rigtop/releases/download/v0.35.1/rigtop-v0.35.1-x86_64-pc-windows-msvc.zip",
+            "hash": "bebec3365771f1a3cbe80a59f6c74adbc3ae862a9c7dc3e31bd273266dcc7f3d",
+            "extract_dir": "rigtop-v0.35.1-x86_64-pc-windows-msvc"
         }
     },
     "pre_install": "Remove-Item \"$dir\\rigtop-gui.exe\"",
