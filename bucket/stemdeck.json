@@ -1,12 +1,12 @@
 {
-    "version": "0.20.0",
+    "version": "0.21.0",
     "description": "StemDeck is a stem separation tool, not a downloader.",
     "homepage": "https://github.com/stemdeckapp/stemdeck",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/stemdeckapp/stemdeck/releases/download/v0.20.0/StemDeck-Windows-x64.zip",
-            "hash": "9106c5110d3f87b11754a03e628427fa319857ef7718b0e5afb1f73726365ead"
+            "url": "https://github.com/stemdeckapp/stemdeck/releases/download/v0.21.0/StemDeck-Windows-x64.zip",
+            "hash": "7e330cc01a15101653e11a115758ef4b532cd6a8085e68799ad16e7afe312d1b"
         }
     },
     "shortcuts": [
