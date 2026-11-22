@@ -1,5 +1,5 @@
 {
-    "version": "0.2.0",
+    "version": "0.3.0",
     "description": "Windows desktop tools for window, screen, keyboard, taskbar, others.",
     "homepage": "https://github.com/scillidan/desktop-tools",
     "license": "MIT",
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/scillidan/desktop-tools/releases/download/v0.2.0/desktop-tools-0.2.0-win64.zip",
-            "hash": "3b4544650b61f1328bc21d985171f61f1dd8af1f909644726d61afc347d3dc7c"
+            "url": "https://github.com/scillidan/desktop-tools/releases/download/v0.3.0/desktop-tools-0.3.0-win64.zip",
+            "hash": "06185d0a74f2ee06376d9382f5e3699136e19a17c84eca8b025f713ffa59167b"
         }
     },
     "shortcuts": [
