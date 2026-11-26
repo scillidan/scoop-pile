@@ -1,5 +1,5 @@
 {
-    "version": "3.6.12.0",
+    "version": "3.7.1.0",
     "description": "A GitHub Desktop fork with advanced functionality and improvements.",
     "homepage": "https://desktop-plus.org",
     "license": "MIT",
@@ -10,12 +10,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/desktop-plus/desktop-plus/releases/download/v3.6.12.0/DesktopPlus-v3.6.12.0-windows-x64.exe#/DesktopPlus.exe",
-            "hash": "830c555d5bcd6a538ae9200a415a61e65636d8e8340c1637f379ee78514b39e1"
+            "url": "https://github.com/desktop-plus/desktop-plus/releases/download/v3.7.1.0/DesktopPlus-v3.7.1.0-windows-x64.exe#/DesktopPlus.exe",
+            "hash": "bb9772c051a81098ec8e0eda0aaedc80330d87f8a0c3049afc89cb5264045596"
         },
         "arm64": {
-            "url": "https://github.com/desktop-plus/desktop-plus/releases/download/v3.6.12.0/DesktopPlus-v3.6.12.0-windows-arm64.exe#/DesktopPlus.exe",
-            "hash": "10cf0937781756ba606d8611963be7469d52d71845dee9be0e98025fe82011cd"
+            "url": "https://github.com/desktop-plus/desktop-plus/releases/download/v3.7.1.0/DesktopPlus-v3.7.1.0-windows-arm64.exe#/DesktopPlus.exe",
+            "hash": "9647513b9f41baf8bb4c991bfbd6f4bd87768e448b5b2e15d8443b25d773f182"
         }
     },
     "post_install": [
